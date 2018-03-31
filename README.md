@@ -1,14 +1,16 @@
-# Jekyll-Pithy
+A [Jekyll](https://jekyllrb.com/) blog template made for simple, readable snippets of your brain drippings.
 
-Jekyll-Pithy is a theme for Jekyll. Here is [my blog](http://wenva.github.io) which use this theme.
+[DEMO](http://adueck.github.io/cayman-blog/)
 
-![image](https://raw.githubusercontent.com/smallmuou/Jekyll-Pithy/master/images/Jekyll-Pithy.png)
+To get this going follow these simple steps:
 
-### Usage
-* Clone it.
-* cd Jekyll-Pithy, and Run "jekyll serve"(You must install [jekyll](http://jekyllrb.com/) first)
-* Open web browser and enter "http://127.0.0.1:4000/", you can see the web page like snapshot above.
-* If you want to host you blog on Github Page, you can follow the steps provide by Github.
+1. Fork, clone, or download the repository
+2. Edit <code>_config.yml</code>
+3. If you want, swap `img/cover.jpg` for your own header image
+3. Fill up the `_posts` folder with whatever you want to say
+4. run <code>jekyll build</code> and then <code>jekyll serve</code>  
+note: This will require the `jekyll-paginate` gem `$ gem install jekyll-paginate`
 
-### License
-The code follows MIT License.
+You can easily host your blog for free on [GitHub Pages](https://pages.github.com/)
+
+I made this Jekyll theme by adapting and modifying the [Cayman Theme](https://github.com/jasonlong/cayman-theme) by [Jason Lang](https://github.com/jasonlong), which is licensed under a [Creative Commons Attribution 4.0 International license](http://creativecommons.org/licenses/by/4.0/).
