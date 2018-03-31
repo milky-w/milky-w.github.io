@@ -1,118 +1,106 @@
 ---
-layout: default
+layout: compress
 ---
+<html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
 
+{% include head.html %}
 
+<body class="site">
 
-{% assign organiser = site.data.organisers.[page.organiser] %}
+{% if site.google_tag_manager %}
 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
-<!--
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header"> 
-    <h2 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</h2>
-    <h3 class="post-time">From {{ page.start_time}} to {{page.end_time }}</h3>
-  </header>
-</article> --> 
-        
+{% endif %}
 
+{% include header.html %}
 
-        <article class="post tag-space space-science" itemscope itemtype="http://schema.org/BlogPosting">            
-            <header class="cover post-header">
-                <div class="post-bg" style="background-image:url({{ site.baseurl }}/{{ page.cover }});"></div>
-                <div class="cover-content">
-                    <div class="inner">
-                        <h1 class="post-title">{{ page.title }}</h1>
-                        <div class="post-meta">
-                            by <span class="post-author"><a href="{{ site.baseurl }}/about" itemscope itemtype="http://schema.org/Person">  {{organiser.name}}</a></span> on <time class="published" datetime="2015-10-05" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" >{{ page.date | date: "%b %-d, %Y" }}</time> <span class="reading-time"> <span class="eta"></span></span>
-                        </div><!-- .post-meta -->
-                        <a href="#" class="scroll-down square light icon-chevron-down"><span class="screen-reader-text">Scroll Down</span></a>
-                    </div><!-- .inner -->
-                </div><!-- .cover-content -->
-            </header><!-- .cover -->
-            <div class="post-content inner">
-                <p></p>
-                <p>{{ content }}</p>
-                <div id="disqus_thread"></div>
-                <script>
-                    /**
-                     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-                     */
-                    /*
-                    var disqus_config = function () {
-                        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-                        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                    };
-                    */
-                    (function() {  // DON'T EDIT BELOW THIS LINE
-                        var d = document, s = d.createElement('script');
-                        
-                        s.src = '//lucasgatsas.disqus.com/embed.js';
-                        
-                        s.setAttribute('data-timestamp', +new Date());
-                        (d.head || d.body).appendChild(s);
-                    })();
-                </script>
-                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-                </noscript>
+  {% if page.featured-img %}
 
+  <div class="hero lazyload" data-bg="{{site.url}}/assets/img/posts/{{page.featured-img}}.jpg">
+    {% else %}
+    <div class="hero dark-bg">
+      {% endif %}
+      <div class="hero__wrap">
+        <h1 class="hero__title">{{ page.title }}</h1>
+        <p class="hero__meta">
+            <span>
+              <time>{{ page.date | date_to_string }}</time>&nbsp;
+            </span>
+          <span>
+              {% assign words = content | number_of_words %}
+                {% if words < 360 %}
+                  1 min
+                {% else %}
+                  {{ words | divided_by:180 }} mins
+              {% endif %} read
+              &nbsp;
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
 
+  <main class="site__content">
+    <div class="container">
+      <article class="post-content" itemprop="articleBody">
 
-        <div>
-            <a href='mailto:{{organiser.email}}?subject=Register interest for {{page.title}} on {{ page.date | date: "%B %-d, %Y" }}&body=Hi! Im interested in your Work. Can we Meet?' class="button button-primary">Contact</a>
+        {{ content }}
+
+      </article>
+      <div class="post-content controls__inner">
+        <div class="controls__item prev">
+          {% if page.previous.url %}
+
+          <span>Previous</span>
+          <a href="{{page.previous.url | relative_url }}">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11">
+                    <path fill="fillColor" d="M5.647 1.718c.37-.434.323-1.09-.106-1.465A1.016 1.016 0 0 0 4.095.36L.25 4.875a1.05 1.05 0 0 0 .017 1.378l3.95 4.407c.38.424 1.03.456 1.448.07a1.05 1.05 0 0 0 .07-1.468l-3.34-3.725 3.253-3.819z"/>
+                  </svg>
+              </span>
+            {{page.previous.title | strip_html | truncate: 30}}
+          </a>
+          {% endif %}
         </div>
 
-            </div><!-- .post-content -->
-            <footer class="post-footer inner">
-                <div class="share-post">
-                    <span>Share</span>
-                    <a class="icon-twitter square" target="_blank" href="http://twitter.com/share?text={{ post.url | prepend: site.baseurl }}&url="><span class="screen-reader-text">Twitter</span></a>
-                    <a class="icon-facebook square" target="_blank" href="http://wwww.facebook.com/sharer.php?"><span class="screen-reader-text">Facebook</span></a>
-                    <a class="icon-google square" target="_blank" href="http://plus.google.com/share?url=/"><span class="screen-reader-text">Google+</span></a>
-                </div>
-                <div class="author-box">
-                        {% if organiser.photo %}
-                            <img src="{{organiser.photo}}" alt="Jane Doe" class="author-avatar" />
-                        {% endif %}
-                            {% if organiser.photo %}
-                    <h4 class="author-title">About 
-                        <a href=""> {{organiser.name}}</a>
-                    </h4>
-                     {% endif %}
-                    <p class="author-description">{{ site.description }}</p>
-                    <p class="author-links">
-                        <span class="author-location">
-                        <i class="icon-map-marker" aria-hidden="true"></i> 
-                        {{organiser.country}}
-                        </span>
-                            <span class="author-website">
-                            <i class="icon-chain" aria-hidden="true"></i> 
-                            <a href="{{ organiser.web }}" target="_blank">{{ organiser.web }}</a>
-                        </span> 
-                              <span class="author-website">
-                              <i class="icon-chain" aria-hidden="true"></i> 
-                              <a href="mailto:{{ organiser.email }}" target="_blank">{{ organiser.email }}</a>
-                        </span> 
-                        
-                    </p>
-                </div>   
-                   <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}" id="pagehove">&larr; Previous Post</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}" id="pagehove">Next Post &rarr;</a>
-                    </li>
-                    {% endif %}
-                </ul>
-               
-            </footer><!-- .post-footer -->
+        <div class="controls__item next">
+          {% if page.next.url %}
+          <span>Next</span>
+          <a href="{{page.next.url | relative_url }}">
+            {{page.next.title | strip_html | truncate: 30}}
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11">
+                  <path fill="#fillColor" d="M.353 9.282c-.37.434-.323 1.09.106 1.465a1.016 1.016 0 0 0 1.446-.107L5.75 6.125a1.05 1.05 0 0 0-.017-1.378L1.784.34A1.015 1.015 0 0 0 .336.27a1.05 1.05 0 0 0-.07 1.468l3.34 3.725L.353 9.282z"/>
+                </svg>
+              </span>
+          </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
 
-        </article><!-- .post -->
+    {% if site.disqus.shortname %}
 
+    <div class="comments">
+      <div class="container">
+        <div class="post-content">
 
-             
+          {% include disqus.html %}
+
+        </div>
+      </div>
+    </div>
+
+    {% endif %}
+
+  </main>
+
+  {% include footer.html %}
+
+</body>
+
+</html>
