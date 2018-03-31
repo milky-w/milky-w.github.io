@@ -15,7 +15,7 @@ url: 'https://milky-w.github.io' # the base hostname & protocol for your site ht
 # Build settings
 markdown: kramdown
 
-permalink: '/:Milky Way/'
+permalink: '/:title/'
 
 gems: [jekyll-paginate]
 
