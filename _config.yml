@@ -7,11 +7,11 @@
 
 # Site settings
 title: 写给学弟学妹的blog
-description: '' # write a nice description for your blog
+description: '写给学弟学妹的blog' # write a nice description for your blog
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://milky-w.github.io' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
-twitter_username: 'Milky Way'
+# twitter_username: 'Milky Way'
 
 # Build settings
 markdown: kramdown
