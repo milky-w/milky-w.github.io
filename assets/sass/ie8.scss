@@ -1,68 +1,92 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
+@import 'libs/skel';
 
 /*
-	Escape Velocity by HTML5 UP
+	Phantom by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Basic */
+/* Form */
 
 	form {
-		input[type="text"],
-		input[type="email"],
-		input[type="password"],
-		select,
-		textarea {
-			position: relative;
-			-ms-behavior: url('assets/js/ie/PIE.htc');
+		.field {
+			float: none !important;
+			width: 100% !important;
+			padding-left: 0 !important;
 		}
 	}
 
-	input[type="button"],
+/* Button */
+
 	input[type="submit"],
-	input[type="reset"] {
-		position: relative;
-		-ms-behavior: url('assets/js/ie/PIE.htc');
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		border: solid 2px _palette(fg) !important;
+
+		&:hover {
+			border-color: _palette(accent1) !important;
+		}
+
+		&.special {
+			border: none !important;
+		}
 	}
 
-	.button,
-	#intro > .style2,
-	#copyright ul,
-	#nav > ul,
-	.dropotron {
-		position: relative;
-		-ms-behavior: url('assets/js/ie/PIE.htc');
-	}
+/* Tiles */
 
-/* Section/Article */
-
-	section > .last-child,
-	article > .last-child,
-	section.last-child,
-	article.last-child {
-		margin-bottom: 0;
-	}
-
-/* Wrappers */
-
-	.wrapper {
-		.title {
-			&:before,
-			&:after {
-				display: none;
+	.tiles {
+		article {
+			> .image {
+				&:before, &:after {
+					display: none;
+				}
 			}
 		}
 	}
 
-	#header-wrapper {
-		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+/* Header */
+
+	#header {
+		.logo {
+			.symbol {
+				display: none;
+			}
+		}
+
+		nav {
+			ul {
+				li {
+					a[href="#menu"] {
+						text-indent: 0;
+						width: auto;
+						font-size: 0.8em;
+
+						&:before, &:after {
+							display: none;
+						}
+					}
+				}
+			}
+		}
 	}
 
-/* Copyright */
+/* Footer */
 
-	#copyright {
-		margin: 0;
+	#footer {
+		> .inner {
+			section {
+				width: 50%;
+				margin-left: 3em;
+
+				&:first-child {
+					margin-left: 0;
+					width: 40%;
+				}
+			}
+		}
 	}
