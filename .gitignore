@@ -1,10 +1,22 @@
-_site/*
-_theme_packages/*
-
-Thumbs.db
 .DS_Store
+.idea/
+*.log
+*.iml
+yarn.lock
+package-lock.json
+node_modules/
 
-!.gitkeep
+# Ignore optional external libraries
+source/lib/*
 
-.rbenv-version
-.rvmrc
+# Track internal libraries & Ignore unused verdors files
+source/lib/font-awesome/less/
+source/lib/font-awesome/scss/
+!source/lib/font-awesome/*
+
+!source/lib/jquery/
+
+source/lib/ua-parser-js/*
+!source/lib/ua-parser-js/dist/
+
+!source/lib/velocity/
