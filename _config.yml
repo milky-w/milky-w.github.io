@@ -262,8 +262,8 @@ sidebar:
   #  - post    expand on posts automatically. Default.
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
-  #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
+    - remove  Totally remove sidebar including sidebar toggle.
+  #display: post
   #display: always
   #display: hide
   #display: remove
@@ -583,7 +583,7 @@ use_motion: true
 # Fancybox
 fancybox: true
 
- Progress bar in the top during page loading.
+# Progress bar in the top during page loading.
 pace: false
 # Themes list:
 #pace-theme-big-counter
