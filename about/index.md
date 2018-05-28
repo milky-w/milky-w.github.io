@@ -1,9 +1,8 @@
 ---
+title: Nice 2 Meet U ❤
 layout: page
 type: about
 ---
-
-## Nice 2 Meet U ❤
 
 ID | Milky Way
 ------------ | -------------
