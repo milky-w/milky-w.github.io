@@ -123,11 +123,7 @@ menu:
   #tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
+search: /search.xml
 
 
 # Enable/Disable menu icons.
