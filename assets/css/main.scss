@@ -2,8 +2,6 @@
 ---
 // CSS Style Guide: http://codeguide.co/#css
 
-
-
 $scheme    : '{{ site.scheme | default: Muse }}';
 $variables : base $scheme custom;
 $mixins    : base $scheme custom;
