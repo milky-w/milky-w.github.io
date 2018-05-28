@@ -14,3 +14,5 @@ Hobbies | Astronomy and Carrots
 QQ | 1837479092
 
 ![](https://milky-w.github.io/assets/images/avatar.gif)
+
+<center>Welcome to make friends with me~</center>
