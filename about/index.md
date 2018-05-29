@@ -13,10 +13,6 @@ Birthday | 2002-03-30
 Hobbies | Astronomy and Carrots
 QQ | 1837479092
 
-![](https://milky-w.github.io/assets/images/avatar.gif)
-
-## <center>"Welcome to Make Friends with Me~"</center>
-
 ---
 
 # <center>My Friends ❤</center>
@@ -28,3 +24,6 @@ ID | Sex
 ❤ [Cansult](https://www.cansult.ga/) | ♂
 ❤ [Slr](https://blog.csdn.net/slr2002/) | ♂
 
+![](https://milky-w.github.io/assets/images/avatar.gif)
+
+### *<center>"Welcome to Make Friends with Me~"</center>*
