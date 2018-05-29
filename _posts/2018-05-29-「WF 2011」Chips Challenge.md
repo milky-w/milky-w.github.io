@@ -24,7 +24,9 @@ $$a_{1,i}+a_{2,i}+\cdots +a_{n,i}<=A/B$$
 
 $$a_{i,1}+a_{i,2}+\cdots +a_{i,n}<=A/B$$
 
-即 $$a_{1,i}+a_{2,i}+\cdots +a_{n,i}-t=0$$
+即
+
+$$a_{1,i}+a_{2,i}+\cdots +a_{n,i}-t=0$$
 
 $$t-a_{i,1}-a_{i,2}-\cdots -a_{i,n}=0$$
 
