@@ -18,18 +18,18 @@ mathjax: true
 
 加上条件 $A/B$ 后， 我一开始是想提取出所有的边，建立点 $(i,j)$ 表示第 $i$ 行第 $j$ 列可放置零件，设 $a_i$ 表示结点 $i$ 处是否放置零件，有
 
-$$a_{1,i}+a_{2,i}+/cdots +a_{n,i}=a_{i,1}+a_{i,2}+/cdots +a_{i,n}$$
+$$a_{1,i}+a_{2,i}+\cdots +a_{n,i}=a_{i,1}+a_{i,2}+/cdots +a_{i,n}$$
 
-$$a_{1,i}+a_{2,i}+/cdots +a_{n,i}<=A/B$$
+$$a_{1,i}+a_{2,i}+\cdots +a_{n,i}<=A/B$$
 
-$$a_{i,1}+a_{i,2}+/cdots +a_{i,n}<=A/B$$
+$$a_{i,1}+a_{i,2}+\cdots +a_{i,n}<=A/B$$
 
-即 $$a_{1,i}+a_{2,i}+/cdots +a_{n,i}-t=0$$
+即 $$a_{1,i}+a_{2,i}+\cdots +a_{n,i}-t=0$$
 
-$$t-a_{i,1}-a_{i,2}-/cdots -a_{i,n}=0$$
+$$t-a_{i,1}-a_{i,2}-\cdots -a_{i,n}=0$$
 
-$$a_{1,i}+a_{2,i}+/cdots +a_{n,i}+b_i=A/B$$
+$$a_{1,i}+a_{2,i}+\cdots +a_{n,i}+b_i=A/B$$
 
-$$a_{i,1}+a_{i,2}+/cdots +a_{i,n}+b_i=A/B$$
+$$a_{i,1}+a_{i,2}+\cdots +a_{i,n}+b_i=A/B$$
 
 差分一下，用流量等式建图，跑最大流。
