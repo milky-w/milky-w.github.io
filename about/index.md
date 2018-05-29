@@ -13,8 +13,6 @@ Birthday | 2002-03-30
 Hobbies | Astronomy and Carrots
 QQ | 1837479092
 
----
-
 # <center>My Friends ❤</center>
 
 ID | Sex
