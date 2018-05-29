@@ -19,12 +19,12 @@ QQ | 1837479092
 
 ---
 
-# <center>My Friends</center>
+# <center>My Friends ❤</center>
 
-[xMinh](https://xminh.github.io/)
+❤ [xMinh](https://xminh.github.io/)
 
-[GaryStack](https://garystack.github.io/)
+❤ [GaryStack](https://garystack.github.io/)
 
-[Cansult](https://www.cansult.ga/)
+❤ [Cansult](https://www.cansult.ga/)
 
-[Slr](https://blog.csdn.net/slr2002/)
+❤ [Slr](https://blog.csdn.net/slr2002/)
