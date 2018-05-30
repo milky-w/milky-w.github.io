@@ -35,6 +35,6 @@ Gary说可以先求一遍01背包。然而我并没有想出来怎么做。。�
 
 我还是想放上Gary的原话：“所以你认为这道题在你做来是什么难度，因为这道题我把它放在课件最前面了，连题解都没写。”
 
-### <center>……</center>
+<center>……</center>
 
 ![](http://images.cnblogs.com/cnblogs_com/milky-w/1226322/o_QQ%e5%9b%be%e7%89%8720180530111145.jpg)
