@@ -4,7 +4,7 @@ date: 2018-05-29 20:38:35
 categories:
 - 动态规划
 tags:
-- 背包DP
+- 背包
 - DP套DP
 mathjax: true
 ---
