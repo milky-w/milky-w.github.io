@@ -1,5 +1,5 @@
 ---
-title: 「CF280C」Game on Tree
+title: 「CF 280C」Game on Tree
 date: 2018-06-16 20:50:09
 categories:
 - 概率论
