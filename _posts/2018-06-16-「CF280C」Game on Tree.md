@@ -2,7 +2,7 @@
 title: 「CF280C」Game on Tree
 date: 2018-06-16 20:50:09
 categories:
-- 数学
+- 概率论
 tags:
 - 概率和期望
 mathjax: true
