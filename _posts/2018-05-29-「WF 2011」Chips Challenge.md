@@ -4,7 +4,7 @@ date: 2018-05-29 11:34:27
 categories:
 - 网络流
 tags:
-- 流量等式
+- 流量等式建图
 - 上下界费用流
 mathjax: true
 ---
