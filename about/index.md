@@ -17,10 +17,10 @@ QQ | 1837479092
 
 ID | Sex
 ---------- | ----------
-❤ [xMinh](https://xminh.github.io/) | ♂
-❤ [GaryStack](https://garystack.github.io/) | ♂
 ❤ [Cansult](https://www.cansult.ga/) | ♂
 ❤ [Slr](https://blog.csdn.net/slr2002/) | ♂
+❤ [Victorique](https://www.cnblogs.com/victorique/) | ♂
+❤ [zzzyc](http://www.cnblogs.com/zzzyc/) | ♂
 
 ![](https://milky-w.github.io/assets/images/avatar.gif)
 
