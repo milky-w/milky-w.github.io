@@ -18,17 +18,16 @@ mathjax: true
 
 **8.28**
 
-勇气：改变你能改变的
-
-宁静：接受你不能改变的
-
-智慧：区分二者的不同
 $$
+勇气：改变你能改变的 \\
+宁静：接受你不能改变的 \\
+智慧：区分二者的不同 \\
 “Lord,\ grant\ me: \\
 serenity\ to\ accept\ the\ things\ I\ can't\ change, \\
 courage\ to\ change\ the\ things\ I\ can, \\
 wisdom\ to\ know\ the\ difference.”
 $$
+
 <p align="right">——塔木德《塔木德》</p>
 
 **8.17**
