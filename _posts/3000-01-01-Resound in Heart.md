@@ -43,7 +43,10 @@ $$
 
 **3.30**
 
-$Everything\ that\ kills\ me\ makes\ me\ feel\ alive. \\ Everything\ that\ downs\ me\ makes\ me\ wanna\ fly.$
+$$
+Everything\ that\ kills\ me\ makes\ me\ feel\ alive. \\
+Everything\ that\ downs\ me\ makes\ me\ wanna\ fly.
+$$
 
 <p align="right">——OneRepublic《Counting Stars》</p>
 
