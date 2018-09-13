@@ -41,7 +41,13 @@ $$
 
 <p align="right">——段奇清《让有些话穿耳而过》</p>
 
-**Unknown**
+**3.30**
+
+$Everything\ that\ kills\ me\ makes\ me\ feel\ alive. \\ Everything\ that\ downs\ me\ makes\ me\ wanna\ fly.$
+
+<p align="right">——OneRepublic《Counting Stars》</p>
+
+**other**
 
 爱一切，相信一部分，不要伤害任何人或事。
 
@@ -53,7 +59,7 @@ $$
 
 ## <center>「2017」</center>
 
-**Unknown**
+**other**
 
 愿你比别人更不怕一个人独处，愿日后想起时你会被自己感动。
 
