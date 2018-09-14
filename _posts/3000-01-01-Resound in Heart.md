@@ -41,14 +41,26 @@ $$
 
 <p align="right">——段奇清《让有些话穿耳而过》</p>
 
+**5.27**
+
+有两件事物越思考就越觉得震撼与敬畏，那便是我头上的星空和我心中的道德准则。
+
+<p align="right">——康德 《实践理性批判》</p>
+
 **3.30**
 
 $$
-Everything\ that\ kills\ me\ makes\ me\ feel\ alive. \\
+Everything\ that\ kills\ me\ makes\ me\ feel\ alive; \\
 Everything\ that\ downs\ me\ makes\ me\ wanna\ fly.
 $$
 
 <p align="right">——OneRepublic《Counting Stars》</p>
+
+**3.19**
+
+海浪带走我的呼唤，黑夜吞没我的不安；凛冽的风，撕裂的痛；只要我期待，振作起来；任暴雨袭来，海阔天空。
+
+<p align="right">——南征北战《闪耀》</p>
 
 **other**
 
