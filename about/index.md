@@ -17,10 +17,11 @@ QQ | 1837479092
 
 ID | Sex
 ---------- | ----------
+❤ [LMSH7](http://www.cnblogs.com/lmsh7) | ♂
+❤ [Mys_C_K](https://blog.csdn.net/mys_c_k) | ♂
 ❤ [Cansult](https://www.cansult.ga/) | ♂
-❤ [Slr](https://blog.csdn.net/slr2002/) | ♂
+❤ [Slr](http://www.cnblogs.com/Slrslr/) | ♂
 ❤ [Victorique](https://www.cnblogs.com/victorique/) | ♂
-❤ [zzzyc](http://www.cnblogs.com/zzzyc/) | ♂
 ❤ [Ycrpro](http://ycrpro.com/) | ♂
 
 ![](https://milky-w.github.io/assets/images/avatar.gif)
