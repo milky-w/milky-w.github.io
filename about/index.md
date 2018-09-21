@@ -19,8 +19,8 @@ ID | Sex
 ---------- | ----------
 ❤ [LMSH7](http://www.cnblogs.com/lmsh7) | ♂
 ❤ [WYX](https://www.cnblogs.com/wyxwyx/) | ♂
-❤ [Mys_C_K](https://blog.csdn.net/mys_c_k) | ♂
-❤ [Riypo_Yian](https://blog.csdn.net/yanzhenhuai) | ♂
+❤ [Mys.C.K](https://blog.csdn.net/mys_c_k) | ♂
+❤ [Riypo Yian](https://blog.csdn.net/yanzhenhuai) | ♂
 ❤ [Leo_JAM](https://blog.csdn.net/fcb_x) | ♂
 ❤ [Ycrpro](http://ycrpro.com/) | ♂
 ❤ [Cansult](https://www.cansult.ga/) | ♂
