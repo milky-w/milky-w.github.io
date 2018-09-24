@@ -17,7 +17,7 @@ QQ | 1837479092
 
 ID | Cute Index
 ---------- | ----------
-❤ [XZY](https://www.k-xzy.xyz/) | ★★★★★
+❤ [XZYQvQ](https://www.k-xzy.xyz/) | ★★★★★
 ❤ [Slr](http://www.cnblogs.com/Slrslr/) | ★★★★☆
 ❤ [Victorique](https://www.cnblogs.com/victorique/) | ★★★★☆
 ❤ [Cansult](https://www.cansult.ga/) | ★★★☆☆
