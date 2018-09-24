@@ -21,8 +21,9 @@ ID | Cute Index
 ❤ [LMSH7](http://www.cnblogs.com/lmsh7) | ★★★★★
 ❤ [Slr](http://www.cnblogs.com/Slrslr/) | ★★★★☆
 ❤ [Victorique](https://www.cnblogs.com/victorique/) | ★★★★☆
-❤ [Cansult](https://www.cansult.ga/) | ★★★☆☆
-❤ [Dispwnl](https://a-failure.github.io/) | ★★★☆☆
+❤ [Cansult](https://www.cansult.ga/) | ★★★★☆
+❤ [Captain Paul](https://www.luogu.org/blog/Captain-Paul/) | ★★★★☆
+❤ [Dispwnl](https://a-failure.github.io/) | ★★★★☆
 ❤ [Mys.C.K](https://blog.csdn.net/mys_c_k) | ★★★☆☆
 ❤ [Leo_JAM](https://blog.csdn.net/fcb_x) | ★★★☆☆
 ❤ [WYX](https://www.cnblogs.com/wyxwyx/) | ★★★☆☆
