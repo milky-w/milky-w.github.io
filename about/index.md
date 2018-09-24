@@ -15,18 +15,18 @@ QQ | 1837479092
 
 # <center>My Friends ❤</center>
 
-ID | Sex
+ID | Cute Index
 ---------- | ----------
-❤ [LMSH7](http://www.cnblogs.com/lmsh7) | ♂
-❤ [XZY](https://www.k-xzy.xyz/) | ♂
-❤ [WYX](https://www.cnblogs.com/wyxwyx/) | ♂
-❤ [Mys.C.K](https://blog.csdn.net/mys_c_k) | ♂
-❤ [Leo_JAM](https://blog.csdn.net/fcb_x) | ♂
-❤ [Riypo Yian](https://blog.csdn.net/yanzhenhuai) | ♂
-❤ [Ycrpro](http://ycrpro.com/) | ♂
-❤ [Cansult](https://www.cansult.ga/) | ♂
-❤ [Slr](http://www.cnblogs.com/Slrslr/) | ♂
-❤ [Victorique](https://www.cnblogs.com/victorique/) | ♂
+❤ [XZY](https://www.k-xzy.xyz/) | ★★★★★
+❤ [Slr](http://www.cnblogs.com/Slrslr/) | ★★★★☆
+❤ [Victorique](https://www.cnblogs.com/victorique/) | ★★★★☆
+❤ [Cansult](https://www.cansult.ga/) | ★★★☆☆
+❤ [Mys.C.K](https://blog.csdn.net/mys_c_k) | ★★★☆☆
+❤ [LMSH7](http://www.cnblogs.com/lmsh7) | ★★★☆☆
+❤ [Leo_JAM](https://blog.csdn.net/fcb_x) | ★★★☆☆
+❤ [Riypo Yian](https://blog.csdn.net/yanzhenhuai) | ★★☆☆☆
+❤ [WYX](https://www.cnblogs.com/wyxwyx/) | ★☆☆☆☆
+❤ [Ycrpro](http://ycrpro.com/) | ★☆☆☆☆
 
 ![](https://milky-w.github.io/assets/images/avatar.gif)
 
