@@ -8,7 +8,7 @@ ID | Milky Way
 ------------ | -------------
 Sex| ♀
 Job | OIer
-School | SLYZ
+School | 胜利一中
 Birthday | 2002-03-30
 Hobbies | Astronomy and Carrots
 QQ | 1837479092
@@ -18,10 +18,11 @@ QQ | 1837479092
 ID | Sex
 ---------- | ----------
 ❤ [LMSH7](http://www.cnblogs.com/lmsh7) | ♂
+❤ [XZY](https://www.k-xzy.xyz/) | ♂
 ❤ [WYX](https://www.cnblogs.com/wyxwyx/) | ♂
 ❤ [Mys.C.K](https://blog.csdn.net/mys_c_k) | ♂
-❤ [Riypo Yian](https://blog.csdn.net/yanzhenhuai) | ♂
 ❤ [Leo_JAM](https://blog.csdn.net/fcb_x) | ♂
+❤ [Riypo Yian](https://blog.csdn.net/yanzhenhuai) | ♂
 ❤ [Ycrpro](http://ycrpro.com/) | ♂
 ❤ [Cansult](https://www.cansult.ga/) | ♂
 ❤ [Slr](http://www.cnblogs.com/Slrslr/) | ♂
