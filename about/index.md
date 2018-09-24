@@ -24,10 +24,10 @@ ID | Cute Index
 ❤ [Cansult](https://www.cansult.ga/) | ★★★★☆
 ❤ [Captain Paul](https://www.luogu.org/blog/Captain-Paul/) | ★★★★☆
 ❤ [Dispwnl](https://a-failure.github.io/) | ★★★★☆
-❤ [Mys.C.K](https://blog.csdn.net/mys_c_k) | ★★★☆☆
-❤ [Leo_JAM](https://blog.csdn.net/fcb_x) | ★★★☆☆
-❤ [WYX](https://www.cnblogs.com/wyxwyx/) | ★★★☆☆
-❤ [Ycrpro](http://ycrpro.com/) | ★★★☆☆
+❤ [Mys.C.K](https://blog.csdn.net/mys_c_k) | ★★★★☆
+❤ [Leo_JAM](https://blog.csdn.net/fcb_x) | ★★★★☆
+❤ [WYX](https://www.cnblogs.com/wyxwyx/) | ★★★★☆
+❤ [Ycrpro](http://ycrpro.com/) | ★★★★☆
 
 ![](https://milky-w.github.io/assets/images/avatar.gif)
 
