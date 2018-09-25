@@ -279,11 +279,12 @@ sidebar:
 
 
 # Blog rolls
-#links_title: Links
-#links_layout: block
+links_title: Links
+links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  LMSH7: http://www.cnblogs.com/lmsh7
+  XZYQvQ: https://www.k-xzy.xyz/
 
 
 # ---------------------------------------------------------------
