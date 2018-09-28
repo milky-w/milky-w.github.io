@@ -5,6 +5,7 @@ categories:
 - OI
 tags:
 - 平衡树
+- 前缀和
 mathjax: true
 ---
 
