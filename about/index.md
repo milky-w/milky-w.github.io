@@ -19,6 +19,7 @@ ID | Cute Index
 ---------- | ----------
 ❤ [XZYQvQ](https://www.k-xzy.xyz/) | ★★★★★
 ❤ [LMSH7](http://www.cnblogs.com/lmsh7) | ★★★★★
+❤ [Michael_Bryant](https://lfd2002.com/) | ★★★★☆
 ❤ [Slr](http://www.cnblogs.com/Slrslr/) | ★★★★☆
 ❤ [Victorique](https://www.cnblogs.com/victorique/) | ★★★★☆
 ❤ [Cansult](https://www.cansult.ga/) | ★★★★☆
