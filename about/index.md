@@ -15,20 +15,20 @@ QQ | 1837479092
 
 # <center>My Friends ❤</center>
 
-ID | Cute Index
+ID | School
 ---------- | ----------
-❤ [XZYQvQ](https://www.k-xzy.xyz/) | ★★★★★
-❤ [LMSH7](http://www.cnblogs.com/lmsh7) | ★★★★★
-❤ [Michael_Bryant](https://lfd2002.com/) | ★★★★☆
-❤ [Slr](http://www.cnblogs.com/Slrslr/) | ★★★★☆
-❤ [Victorique](https://www.cnblogs.com/victorique/) | ★★★★☆
-❤ [Cansult](https://www.cansult.ga/) | ★★★★☆
-❤ [Captain Paul](https://www.luogu.org/blog/Captain-Paul/) | ★★★★☆
-❤ [Dispwnl](https://a-failure.github.io/) | ★★★★☆
-❤ [Mys.C.K](https://blog.csdn.net/mys_c_k) | ★★★★☆
-❤ [Leo_JAM](https://blog.csdn.net/fcb_x) | ★★★★☆
-❤ [WYX](https://www.cnblogs.com/wyxwyx/) | ★★★★☆
-❤ [Ycrpro](http://ycrpro.com/) | ★★★★☆
+❤ [Leo_JAM](https://blog.csdn.net/fcb_x) | 成都树德中学
+❤ [XZYQvQ](https://www.k-xzy.xyz/) | 长沙市第一中学
+❤ [Michael_Bryant](https://lfd2002.com/) | 东北师范大学附属中学
+❤ [Mys.C.K](https://blog.csdn.net/mys_c_k) | 青岛第二中学
+❤ [LMSH7](http://www.cnblogs.com/lmsh7) | 山东省实验中学
+❤ [WYX](https://www.cnblogs.com/wyxwyx/) | 山东省实验中学
+❤ [Ycrpro](http://ycrpro.com/) | 寿光渤海实验学校
+❤ [Cansult](https://www.cansult.ga/) | 胜利第一中学
+❤ [Captain Paul](https://www.luogu.org/blog/Captain-Paul/) | 胜利第一中学
+❤ [Dispwnl](https://a-failure.github.io/) | 胜利第一中学
+❤ [Slr](http://www.cnblogs.com/Slrslr/) | 胜利第一中学
+❤ [Victorique](https://www.cnblogs.com/victorique/) | 胜利第一中学
 
 ![](https://milky-w.github.io/assets/images/avatar.gif)
 
