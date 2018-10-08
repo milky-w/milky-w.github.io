@@ -1,0 +1,93 @@
+---
+title: 「JSOI 2009」火星藏宝图
+date: 2018-10-08 11:00:00
+categories:
+- OI
+tags:
+- 斜率优化
+mathjax: true
+---
+
+> 题目大意：$n$ 个小岛分布于 $m \times m$ 的网格中，每个小岛有收益 $w_i$，从 $(x_1,y_1)$ 走到 $(x_2,y_2)$ 的代价为 $(x_1-x_2)^2+(y_1-y_2)^2$，每次可以向右下方走，最大化从 $(1,1)$ 走到 $(m,m)$ 的收益减代价。$n \leq 2 \times 10^5, m \leq 10^3$
+
+如图，可推出路线 $a,b$ 和 $e,f$ 的代价 $\leq$ 路线 $c$ 的代价，那么每次从每列最下面一行的点转移，可得到 $O(nm)$ 做法。
+
+![](https://www.cnblogs.com/images/cnblogs_com/milky-w/1224598/o_mars.png)
+
+设 $f[x_i][y_i]$ 表示到达点 $i$ 的最大收益，有
+
+$$
+\begin{eqnarray}
+		f[x_i][y_i]&=&\max\{f[x_j][y_j]-(x_i-x_j)^2-(y_i-y_j)^2\}+w_i\\
+		&=&\max\{f[x_j][y_j]-x_j^2-y_j^2+2x_ix_j+2y_iy_j\}-x_i^2-y_i^2+w_i
+	\end{eqnarray}
+$$
+
+假设 $y_j>y_k$，考虑
+
+$$
+\begin{eqnarray}
+		f[x_j][y_j]-x_j^2-y_j^2+2x_ix_j+2y_iy_j&>&f[x_k][y_k]-x_k^2-y_k^2+2x_ix_k+2y_iy_k\\
+		2x_ix_j-2x_ix_k+2y_iy_j-2y_iy_k&>&(x_j^2+y_j^2-f[x_j][y_j])-(x_k^2+y_k^2-f[x_k][y_k])\\
+		2y_i(y_j-y_k)&>&(x_j^2+y_j^2-2x_ix_j-f[x_j][y_j])-(x_k^2+y_k^2-2x_ix_k-f[x_k][y_k])\\
+		2y_i&>&\dfrac{(x_j^2+y_j^2-2x_ix_j-f[x_j][y_j])-(x_k^2+y_k^2-2x_ix_k-f[x_k][y_k])}{y_j-y_k}
+	\end{eqnarray}
+$$
+
+设 $X_i=y_i,Y_i=x_i^2+y_i^2-2x_ix_j-f[x_i][y_i]$，其中 $x_j$ 为当前行，每行分别维护下凸壳。
+
+```c++
+#include <cstdio>
+#include <algorithm>
+ 
+const int N = 1005;
+struct Node {
+    int x, y;
+} q[N];
+int w[N][N], X[N], head, tail, tmp;
+long long f[N][N];
+ 
+int read() {
+    int x = 0; char c = getchar();
+    while (c < '0' || c > '9') c = getchar();
+    while (c >= '0' && c <= '9') {
+        x = (x << 3) + (x << 1) + (c ^ 48);
+        c = getchar();
+    }
+    return x;
+}
+double Y(Node a) {
+    return a.x * a.x + a.y * a.y - 2 * a.x * tmp - f[a.x][a.y];
+}
+double slope(Node a, Node b) {
+    if (a.y == b.y) return Y(a) < Y(b) ? 1e18 : -1e18;
+    return (Y(a) - Y(b)) / (a.y - b.y);
+}
+ 
+int main() {
+    int n = read(), m = read();
+    for (int i = 1; i <= n; ++i)
+        w[read()][read()] = read();
+    for (int i = 1; i <= m; ++i) { //行
+        head = 1, tail = 0, tmp = i;
+        for (int j = 1; j <= m; ++j) { //列
+            if (X[j]) { //加入转移队列
+                Node now = (Node){X[j], j};
+                while (head < tail && slope(q[tail-1], q[tail]) >= slope(q[tail], now)) --tail;
+                q[++tail] = now;
+            }
+            if (!w[i][j]) continue;
+            while (head < tail && slope(q[head], q[head+1]) <= j << 1) ++head;
+            int x = q[head].x, y = q[head].y;
+            f[i][j] = head > tail ? w[i][j] : f[x][y] - (i - x) * (i - x) - (j - y) * (j - y) + w[i][j];
+            X[j] = i;
+            Node now = (Node){i, j};
+            while (head < tail && slope(q[tail-1], q[tail]) >= slope(q[tail], now)) --tail;
+            q[++tail] = now;
+        }
+    }
+    printf("%lld\n", f[m][m]);
+    return 0;
+}
+```
+时间复杂度 $O(m^2)$
