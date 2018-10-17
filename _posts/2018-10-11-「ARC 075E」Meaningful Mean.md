@@ -5,6 +5,7 @@ categories:
 - OI
 tags:
 - 树状数组
+- 逆序对
 - 前缀和
 mathjax: true
 ---
