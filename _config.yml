@@ -64,7 +64,7 @@ feed:
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
-plugins:
+plugins_dir:
 # jemoji conficts with toc in some no-ascii post
 # - jemoji
  - jekyll-sitemap
@@ -709,3 +709,6 @@ images: assets/images
 
 # Theme version
 version: 5.1.1
+
+# XZY Fix Bug
+gems: [jekyll-paginate]
