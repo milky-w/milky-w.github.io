@@ -22,6 +22,7 @@ ID | School
 ❤ [Michael_Bryant](https://lfd2002.com/) | 东北师范大学附属中学
 ❤ [Yirannn](https://yirannn.com/) | 吉林大学附属中学
 ❤ [Mys.C.K](https://blog.csdn.net/mys_c_k) | 青岛第二中学
+❤ [forever_shi](https://blog.csdn.net/forever_shi) | 青岛第二中学
 ❤ [LMSH7](http://www.cnblogs.com/lmsh7) | 山东省实验中学
 ❤ [WYX](https://www.cnblogs.com/wyxwyx/) | 山东省实验中学
 ❤ [Ycrpro](http://ycrpro.com/) | 寿光渤海实验学校
