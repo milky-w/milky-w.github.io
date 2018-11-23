@@ -31,6 +31,7 @@ ID | School
 ❤ [Dispwnl](https://a-failure.github.io/) | 胜利第一中学
 ❤ [Slr](http://www.cnblogs.com/Slrslr/) | 胜利第一中学
 ❤ [Victorique](https://www.cnblogs.com/victorique/) | 胜利第一中学
+❤ [Labelray](http://labelray.top) | 山西大学附属中学
 ❤ [Officeyutong](https://yutong.site/) | 烟台青华中学
 
 ![](https://milky-w.github.io/assets/images/avatar.gif)
