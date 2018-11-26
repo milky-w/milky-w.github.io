@@ -26,6 +26,7 @@ ID | School
 ❤ [LMSH7](http://www.cnblogs.com/lmsh7) | 山东省实验中学
 ❤ [WYX](https://www.cnblogs.com/wyxwyx/) | 山东省实验中学
 ❤ [Ycrpro](http://ycrpro.com/) | 寿光渤海实验学校
+❤ [SGCollin](https://www.cnblogs.com/SGCollin/) | 石家庄二中
 ❤ [Cansult](https://www.cansult.ga/) | 胜利第一中学
 ❤ [Captain Paul](https://www.luogu.org/blog/Captain-Paul/) | 胜利第一中学
 ❤ [Dispwnl](https://a-failure.github.io/) | 胜利第一中学
